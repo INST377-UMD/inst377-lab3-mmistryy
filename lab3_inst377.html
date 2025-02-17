@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>lab 3</title>
+    <link rel="stylesheet" href="lab3_inst377.css">
+</head>
+<body>
+    <div class="header">
+        <header>
+            <h1>lab 3 - rock, paper, scissors</h1>
+        </header>
+    </div>
+    <nav id="main-menu">
+        <ul>
+            <li><a href="https://papas-games.io/">papa's games</a></li>
+            <li><a href="https://genshin-impact-map.appsample.com/">genshin impact interactive map</a></li>
+            <li><a href="https://www.amazon.com/">amazon</a></li>
+        </ul>
+    </nav>
+    <div class="name-box">
+        <div class="name-box-stuff">
+            <h3>pls fill out the form below ^_^</h3>
+            <form name="name-slot">
+                <label for="name">what's ur name?</label>
+                <input type="text" id="name" required>
+                <br>
+                <label for="rps">pick one:</label>
+                <select id="rps" name="rps">
+                    <option hidden disabled selected=""> - - - </option>
+                    <option value="1">rock</option>
+                    <option value="2">paper</option>
+                    <option value="3">scissors</option>
+                </select>
+                <br>
+                <input type="submit">
+            </form>
+        </div>
+        <aside id="rules">
+            <h3><u>game rules:</u></h3>
+            <p><b>pick rock, paper, or scissors</b></p>
+            <p><b>combos:</b></p>
+            <ul>
+                <li>rock vs scissors = rock wins</li>
+                <li>scissors vs paper = scissors wins</li>
+                <li>paper vs rock = paper wins</li>
+            </ul>
+        </aside>
+    </div>
+    <div class="header">
+        <footer>
+            <p>^_^ !!thanks for playing!! ^_^ </p>
+        </footer>
+    </div>
+</body>
+</html>
